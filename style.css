@@ -17,7 +17,7 @@ header {
 }
 
 .container {
-    width: 80%; /* largura */
+    width: 85%; /* largura */
     margin: 0 auto; /* centraliza o coteúdo */
 }
 
@@ -289,6 +289,8 @@ header {
 
 .list img {
     width: 200px;
+    height: 10rem;
+    object-fit: cover;
 }
 
 .list a {
@@ -373,9 +375,6 @@ header {
     background-color: #003580;
     color: white;
     padding: 3px;
-    /* border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px; */
     border-radius: 5px 5px 5px 0;
 }
 
